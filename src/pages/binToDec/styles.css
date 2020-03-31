@@ -1,0 +1,41 @@
+.binToDec-container
+{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex; 
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.binToDec-container .content
+{
+    width: 65%;
+    max-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+}
+
+
+.binToDec-container .content form, .binToDec-container .content p, .binToDec-container .content h1
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.binToDec-container .content input
+{
+    border-radius: 4px;
+    text-align: center;
+}
+
+.binToDec-container .content form button
+{
+    font-weight: 400;
+    background-color:#f0f0f5;
+}
